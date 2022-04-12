@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     DataLoader m_dloader;
-    m_dloader.getTeam("/usr/mast/squad1.json");
+    m_dloader.getTeam("/home/mast/squad1.json");
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {

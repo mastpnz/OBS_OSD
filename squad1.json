@@ -1,0 +1,36 @@
+{
+    "TeamName" : "Team 1",
+    "City" : "Gorod",
+    "Region" : "Oblastnaya obl",
+    "Country" : "Strana" ,
+    "Players": [
+        { "number" : "10", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich", "stuff" : "C"},
+        { "number" : "11", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "12", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "13", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "14", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "15", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich", "stuff" : "A"},
+        { "number" : "16", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "17", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich", "stuff" : "A"},
+        { "number" : "18", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "19", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "20", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "21", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "22", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "23", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "24", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "25", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "26", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "27", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "28", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "29", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "30", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        { "number" : "31", "position" : "LFW", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"}
+        ],
+    "Stuff" : [
+        {"position" : "generalcoach", "name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        {"position" : "coach","name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        {"position" : "coach","name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"},
+        {"position" : "admin","name" : "Ivan", "surname" : "Ivanov", "secname" : "Ivanovich"}
+    ]
+}
