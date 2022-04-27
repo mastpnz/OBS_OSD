@@ -4,27 +4,30 @@
 #include <QJsonObject>
 #include <QJsonObject>
 #include <QVariantList>
+#include <QObject>
 
 class QJsonDocument;
 
-
-class DataLoader
+class DataLoader : public QObject
 {
+    Q_OBJECT
+//    Q_DISABLE_COPY(DataLoader)
 public:
+    explicit DataLoader(QObject *parent = nullptr);
     enum class PlayerRole {
         C,
-        A
+        A,
+        NOTSET
     };
-
     enum class PlayerPosition {
         LF,
         CF,
         RF,
         LD,
         RD,
-        G
+        G,
+        NOTSET
     };
-
     enum class StuffPosition {
         general_coach,
         coach,
@@ -32,7 +35,6 @@ public:
         administrator,
         medic
     };
-
     struct Player {
         QString name;
         QString surname;
@@ -41,14 +43,12 @@ public:
         PlayerRole role;
         PlayerPosition position;
     };
-
     struct Stuff {
         QString name;
         QString surname;
         QString secname;
         StuffPosition position;
     };
-
     struct Team {
         QString name;
         QString city;
@@ -57,8 +57,12 @@ public:
         QList<Player> players;
         QList<Stuff> stuffs;
     };
-    DataLoader();
-    static QJsonDocument getTeam(const QString &path);
+    DataLoader::Team getTeam(const QString &path);
+    void setTeamToGUI(DataLoader::Team team);
+signals:
+    void rightTeamSetted(QVariant rightSquad);
+public slots:
+    void callMe(const QString &path);
 };
 
 #endif // DATALOADER_H
